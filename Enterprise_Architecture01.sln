@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32901.82
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataAccessLayer", "DataAccessLayer", "{6A9E6853-2125-4750-A78D-2DC5475FB272}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PresentationLayer", "PresentationLayer", "{33539515-6D1E-4B88-B7F8-12CE40014432}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BusinessLayer", "BusinessLayer", "{1233CEA1-CBDD-4758-9B6F-830F897CE2C2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{03A2D73B-4298-4595-918B-20C167CD967F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EA.Model", "EA.Model\EA.Model.csproj", "{7A5727E2-A1CC-450C-9C88-28F723D57B39}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Note.DAL", "Note.DAL\Note.DAL.csproj", "{06EF5DCB-F314-488A-8025-B5321ABCA8F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Note.IDAL", "Note.IDAL\Note.IDAL.csproj", "{CD314AB4-0204-4893-AD10-F73611B95E3D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "noteBll", "noteBll\noteBll.csproj", "{1362E1D1-B42B-44B8-BC02-D688802227CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NoteMVC(EA)", "NoteMVC(EA)\NoteMVC(EA).csproj", "{33C43D2E-DF89-456F-8B58-66D28BE559E9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7A5727E2-A1CC-450C-9C88-28F723D57B39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A5727E2-A1CC-450C-9C88-28F723D57B39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A5727E2-A1CC-450C-9C88-28F723D57B39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A5727E2-A1CC-450C-9C88-28F723D57B39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06EF5DCB-F314-488A-8025-B5321ABCA8F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06EF5DCB-F314-488A-8025-B5321ABCA8F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06EF5DCB-F314-488A-8025-B5321ABCA8F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06EF5DCB-F314-488A-8025-B5321ABCA8F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD314AB4-0204-4893-AD10-F73611B95E3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD314AB4-0204-4893-AD10-F73611B95E3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD314AB4-0204-4893-AD10-F73611B95E3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD314AB4-0204-4893-AD10-F73611B95E3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1362E1D1-B42B-44B8-BC02-D688802227CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1362E1D1-B42B-44B8-BC02-D688802227CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1362E1D1-B42B-44B8-BC02-D688802227CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1362E1D1-B42B-44B8-BC02-D688802227CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33C43D2E-DF89-456F-8B58-66D28BE559E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33C43D2E-DF89-456F-8B58-66D28BE559E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33C43D2E-DF89-456F-8B58-66D28BE559E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33C43D2E-DF89-456F-8B58-66D28BE559E9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7A5727E2-A1CC-450C-9C88-28F723D57B39} = {03A2D73B-4298-4595-918B-20C167CD967F}
+		{06EF5DCB-F314-488A-8025-B5321ABCA8F8} = {6A9E6853-2125-4750-A78D-2DC5475FB272}
+		{CD314AB4-0204-4893-AD10-F73611B95E3D} = {6A9E6853-2125-4750-A78D-2DC5475FB272}
+		{1362E1D1-B42B-44B8-BC02-D688802227CE} = {1233CEA1-CBDD-4758-9B6F-830F897CE2C2}
+		{33C43D2E-DF89-456F-8B58-66D28BE559E9} = {33539515-6D1E-4B88-B7F8-12CE40014432}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7EA80C7D-863C-478C-A07B-F19237D4BFF3}
+	EndGlobalSection
+EndGlobal
